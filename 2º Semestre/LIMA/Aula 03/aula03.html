@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+</head>
+<body>
+    <center><h1>Lanchonete do Seu Zé<h1>
+    <hr>
+    <br>
+    <h3>Monte seu lanche</h3>
+    </center>
+    <form action="" method="">
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" placeholder="Insira seu nome" required /> 
+    </p>
+    <p>
+        <label for="datanasc">Data de Nascimento</label>
+        <input id="datanasc" type="date" />
+     </p>
+    <p>
+        <label for="indica">Você nos indicaria?</label>
+        <input id="indica" type="number" min="1" max="5" />
+     </p>
+     <p>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="Insira seu E-mail" required />
+    </p>
+    <p>
+        <label for="cor">Cor favorita</label>
+        <input id="cor" type="color" />
+    </p>
+    <p>
+        <label for="volume">Em qual volume você ouve música (0 a 100)</label>
+        <input id="volume" type="range" min="0" max="100" value="50" oninput="valorVolume.textContent = this.value" />
+        <span id="valorVolume">50</span>
+
+
+        <style>
+            #volume {
+
+                accent-color: rgb(236, 164, 236);
+            }
+        </style>
+    </p>
+    <fieldset>
+        <legend>Gênero</legend>
+        <input type="radio" id="masc" name="genero"/>
+        <label for="masc">Masculino</label>
+        <input type="radio" id="fem" name="genero"/>
+        <label for="fem">Feminino</label>
+         <input type="radio" id="outros" name="genero"/>
+        <label for="outros">Outros</label>
+        <style>
+            #masc {
+                accent-color: rgb(211, 78, 78);
+            }
+            #fem {
+                accent-color: rgb(236, 87, 179);
+            }
+            #outros {
+                accent-color: #75e062;
+            }
+        </style>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Monte seu lanche</legend>
+        <input type="checkbox" id="salada" />
+        <label for="salada">Salada</label>
+        <input type="checkbox" id="hamb" />
+        <label for="hamb">Hamburguer</label>
+        <input type="checkbox" id="tomate" />
+        <label for="tomate">Tomate</label>
+        <input type="checkbox" id="maionese" />
+        <label for="maionese">Maionese</label>
+        <input type="checkbox" id="queijo" />
+        <label for="queijo">Queijo</label>
+        <input type="checkbox" id="bacon" />
+        <label for="bacon">Bacon</label>
+
+        <style>
+            #salada {
+                accent-color: rgb(69, 180, 69);
+            }
+            #hamb {
+                accent-color: rgb(88, 28, 28);
+            }
+            #tomate {
+                accent-color: rgb(244, 70, 70);
+            }
+            #maionese {
+                accent-color: rgb(164, 237, 245);
+            }
+            #queijo {
+                accent-color: rgb(254, 254, 116);
+            }
+            #bacon {
+                accent-color: rgb(231, 180, 87);
+            }
+        </style>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Bebidas</legend>
+        <input type="radio" id="agua" name="beb1"/>
+        <label for="cocacola">Água</label>
+        <img src="https://imgs.extra.com.br/1564306560/1xg.jpg" width="300" height="300">
+        <input type="radio" id="refrigerante" name="beb2" />
+        <label for="refrigerante">Refrigerante</label>
+        <img src="https://marcoluccio.com.br/wp-content/uploads/2021/03/Refrigerante.png" width="300" height="300">
+        <input type="radio" id="suco" name="beb3" />
+        <label for="suco">Suco</label>
+        <img src="https://drogal.vtexassets.com/arquivos/ids/178756/39801.jpg?v=638446288274130000" width="300" height="300">
+    </fieldset>
+    <p>
+        <label for="info">Informações Adicionais</label>
+        <textarea id="info"></textarea>
+    </p>
+    <p>
+        <label for="cidade">Informe a cidade</label>
+        <select id="cidade">
+            <option>Jaguariúna</option>
+            <option>Amparo</option>
+            <option>Pirassununga</option>
+            <option>Pedreira</option>
+            <option>Monte Alegre do Sul</option>
+            <option>Mostardas</option>
+            <option>Itapira</option>
+        </select>
+    </p>
+    <p>
+        <input type="reset" value="Limpar Form" />
+        <button onclick="enviar()">Enviar</button>
+        <script>
+            function enviar(){
+                alert("Dados enviados com sucesso")
+            }
+        </script>
+    </p>
+    </form>
+
+</body>
+</html>

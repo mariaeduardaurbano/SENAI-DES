@@ -1,0 +1,565 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1755867556471
+  modified: 1755867556471
+  description: ""
+collection:
+  - name: Biblioteca
+    meta:
+      id: fld_d8ea9ad13e264510b18bb95142eabf59
+      created: 1756466508237
+      modified: 1757077409803
+      sortKey: -1756466508237
+      description: ""
+    children:
+      - name: Usuarios
+        meta:
+          id: fld_6769cfac4fe54fd987f365bd2e8fd62d
+          created: 1756466564240
+          modified: 1757077413964
+          sortKey: -1756466564240
+          description: ""
+  - name: Livros
+    meta:
+      id: fld_beb88232fa124717be6db04978dfd9a6
+      created: 1756476887362
+      modified: 1756476887362
+      sortKey: -1756476887362
+      description: ""
+  - name: Musicas
+    meta:
+      id: fld_34625086cd35409b9812f6a97b46feca
+      created: 1757078276176
+      modified: 1757078276176
+      sortKey: -1757078276176
+      description: ""
+  - name: Usuarios
+    meta:
+      id: fld_0d4df9bf14944c4c8a3d659cc3dac3bd
+      created: 1757079218438
+      modified: 1757079218438
+      sortKey: -1757079218438
+      description: ""
+  - name: Playlists
+    meta:
+      id: fld_ca4ac04030ac4e77a44a7b05cc33f0fa
+      created: 1757079633782
+      modified: 1757079633782
+      sortKey: -1757079633782
+      description: ""
+  - name: Playlist_musicas
+    meta:
+      id: fld_919f9aa7ed824a2e93cc5def12a32134
+      created: 1757081524564
+      modified: 1757081524564
+      sortKey: -1757081524564
+      description: ""
+  - name: Quartos
+    meta:
+      id: fld_2133eed0c8e14f9ab9f739dfc2643dba
+      created: 1757703421147
+      modified: 1757703421147
+      sortKey: -1757703421147
+      description: ""
+  - name: provaPWBE
+    meta:
+      id: fld_f26b97efb0cf4cfca933f4c4d929979a
+      created: 1758288289255
+      modified: 1758288289255
+      sortKey: -1758288289255
+      description: ""
+    children:
+      - name: Clientes
+        meta:
+          id: fld_189cac7e647b453d84c1421c2e649ef0
+          created: 1758288423675
+          modified: 1758288430492
+          sortKey: -1758288430456
+          description: ""
+      - name: Produtos
+        meta:
+          id: fld_590742b77a494f238d0e52c5b3f6e33d
+          created: 1758289139913
+          modified: 1758289142801
+          sortKey: -1758288430556
+          description: ""
+      - name: Compras
+        meta:
+          id: fld_2a81d605598c4e99a071492a846b9a12
+          created: 1758289838511
+          modified: 1758289840782
+          sortKey: -1758288430656
+          description: ""
+  - name: Locadora
+    meta:
+      id: fld_7d1d4eacdc364c3f906a5150da11d1bd
+      created: 1759231112723
+      modified: 1759231112723
+      sortKey: -1759231112723
+      description: ""
+  - name: Cinema
+    meta:
+      id: fld_535d13eac1d247fcb9616ae9930240fb
+      created: 1759512677445
+      modified: 1759512677445
+      sortKey: -1759512677445
+      description: ""
+  - name: base_teste
+    meta:
+      id: fld_2d01121f12824b458fbf360dc9e14f4a
+      created: 1760703410499
+      modified: 1760703410499
+      sortKey: -1760703410499
+      description: ""
+  - name: Sala_de_estudos
+    meta:
+      id: fld_d812c1ee461f4c94bb749483b18d4642
+      created: 1764334927033
+      modified: 1764334927033
+      sortKey: -1764334927034
+      description: ""
+    children:
+      - name: Alunos
+        meta:
+          id: fld_9beac01fb0cb4895b7fe2fdb1ac99d65
+          created: 1764334955417
+          modified: 1764338836414
+          sortKey: -1764334957158
+          description: ""
+        children:
+          - url: http://localhost:3000/aluno
+            name: CadastrarAluno
+            meta:
+              id: req_4164669f128f480090320165e5e2278d
+              created: 1764334959905
+              modified: 1764336414527
+              isPrivate: false
+              description: ""
+              sortKey: -1764335156498
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"nome": "Maria Eduarda Urbano",
+                	"turma": "2A"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.6.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/alunos
+            name: ListarAlunos
+            meta:
+              id: req_ffdb3e250d5240e1a2233e9e85916a47
+              created: 1764336450987
+              modified: 1764336516303
+              isPrivate: false
+              description: ""
+              sortKey: -1764335156598
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/aluno/5
+            name: excluirAluno
+            meta:
+              id: req_e476097e88134a20bad8ebcf9231aa21
+              created: 1764336813931
+              modified: 1764337770201
+              isPrivate: false
+              description: ""
+              sortKey: -1764335156398
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/aluno/2
+            name: AtualizarAluno
+            meta:
+              id: req_fd0039c2d495482f8a1bed61d80765d9
+              created: 1764337034368
+              modified: 1764348955450
+              isPrivate: false
+              description: ""
+              sortKey: -1764335156298
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                	{
+                		"id_aluno": 2,
+                		"nome": "Isabelle B.",
+                		"turma": "2B"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/aluno/total
+            name: TotalAlunos
+            meta:
+              id: req_f051a5a34d95499a80b6eb4b06c7ad3c
+              created: 1764348676540
+              modified: 1764348715296
+              isPrivate: false
+              description: ""
+              sortKey: -1764335156698
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Salas
+        meta:
+          id: fld_bed6632394504c3fa3079056737ab72f
+          created: 1764338810338
+          modified: 1764338825831
+          sortKey: -1764334957258
+          description: ""
+        children:
+          - url: http://localhost:3000/salas
+            name: ListarSalas
+            meta:
+              id: req_70ac5a621c594b3da61673bfc8f32957
+              created: 1764338839769
+              modified: 1764338869441
+              isPrivate: false
+              description: ""
+              sortKey: -1764338851593
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/sala
+            name: CadastrarSala
+            meta:
+              id: req_335f3a119b02405f9326453515546511
+              created: 1764338914939
+              modified: 1764352577705
+              isPrivate: false
+              description: ""
+              sortKey: -1764338851493
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                	{
+                		"nome": "ALEGRIA",
+                		"capacidade": 10
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/sala/4
+            name: ExcluirSala
+            meta:
+              id: req_ec5d00b5006d422d88069be0b50f90bf
+              created: 1764338988169
+              modified: 1764342550353
+              isPrivate: false
+              description: ""
+              sortKey: -1764338851693
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/sala/2
+            name: AtualizarSala
+            meta:
+              id: req_e93920a7781741cc8f9d80c4eec4228a
+              created: 1764339021094
+              modified: 1764345379101
+              isPrivate: false
+              description: ""
+              sortKey: -1764338851393
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                		"id_sala": 2,
+                		"nome": "Laboratório de Física",
+                		"capacidade": 50
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/salatotal
+            name: TotalSalas
+            meta:
+              id: req_44f0171388eb4fdc82377fb67025047c
+              created: 1764348560003
+              modified: 1764352447303
+              isPrivate: false
+              description: ""
+              sortKey: -1764338851793
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Reservas
+        meta:
+          id: fld_01500c91d5f34bcd81485e5c7ac122c7
+          created: 1764346582290
+          modified: 1764346584999
+          sortKey: -1764334957358
+          description: ""
+        children:
+          - url: http://localhost:3000/reservas
+            name: ListarReservas
+            meta:
+              id: req_379404842b234cbaa9b6fb8431068042
+              created: 1764346574854
+              modified: 1764346655545
+              isPrivate: false
+              description: ""
+              sortKey: -1764346609549
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/reserva
+            name: CadastrarReserva
+            meta:
+              id: req_523b70b0ca9b4abca1150f52c4ebe9b0
+              created: 1764346765413
+              modified: 1764347078690
+              isPrivate: false
+              description: ""
+              sortKey: -1764346609449
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                	{
+                		"id_sala": 3,
+                		"id_aluno": 2,
+                		"data_reserva": "2025-10-18",
+                		"horario": "15:40:00"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/reserva/3
+            name: ExcluirReserva
+            meta:
+              id: req_c53dea4356754186b6dd90599532c7f8
+              created: 1764347404709
+              modified: 1764347432150
+              isPrivate: false
+              description: ""
+              sortKey: -1764346609349
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/reserva/2
+            name: AtualizarReserva
+            meta:
+              id: req_18deec80d3de4c63bd1cb61d962c0b3f
+              created: 1764347444177
+              modified: 1764347503105
+              isPrivate: false
+              description: ""
+              sortKey: -1764346609249
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                		"id_reserva": 2,
+                		"id_sala": 2,
+                		"id_aluno": 1,
+                		"data_reserva": "2025-11-23T03:00:00.000Z",
+                		"horario": "10:00:00"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/reservatotal
+            name: TotalReservas
+            meta:
+              id: req_ce22e38631d64580aeae6e2a782378dd
+              created: 1764348047990
+              modified: 1764352518856
+              isPrivate: false
+              description: ""
+              sortKey: -1764346609649
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466116391
+    modified: 1756466116391
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466116219
+    modified: 1756466116219
+    isPrivate: false

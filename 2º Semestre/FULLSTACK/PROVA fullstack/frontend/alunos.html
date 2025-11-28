@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Alunos</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Salas</a>
+        <a href="alunos.html">Alunos</a>
+        <a href="reservas.html">Reservas</a>
+    </nav>
+
+    <section>
+        <h1>Cadastro de Alunos</h1>
+
+        <form id="formAluno">
+            <input type="text" name="nome" placeholder="Nome do aluno" required>
+            <input type="text" name="turma" placeholder="Turma" required>
+            <button type="submit">Cadastrar Aluno</button>
+        </form>
+    </section>
+
+    <section>
+        <h1>Alunos cadastrados</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Turma</th>
+                    <th>Total Reservas</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="linhaA">
+                    <td>1</td>
+                    <td>Mirella B.</td>
+                    <td>2B</td>
+                    <td>1</td>
+                </tr>
+
+                <tr class="linhaB">
+                    <td>2</td>
+                    <td>Isabelle B.</td>
+                    <td>2B</td>
+                    <td>1</td>
+                </tr>
+
+                <tr class="linhaA">
+                    <td>3</td>
+                    <td>Gabrielly S.</td>
+                    <td>2A</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+      <img src="cachorro.png" class="cachorro">
+
+</body>
+
+</html>

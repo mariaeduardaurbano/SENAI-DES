@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Tech Solution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>NoteBook Dell Inpiron</h1>
+    </header>
+       
+    <section>
+        <div class="container">
+            <div class="notebook">
+                <img src="notebook.jpg" alt="foto" class="foto-perfil">
+            </div>
+
+            <div class="sobre-informacoes">
+                <h2>NoteBook Dell Inspiron</h2>
+                <p>
+                    Notebook de 15,6 polegadas ideal para uso diário, em um design estiloso e bem pensado.
+                    Equipado com processadores Intel® Core™ de até a 13ª geração.
+                </p>
+
+                <fieldset>
+                    <legend>Cor</legend>
+                    <input type="radio" id="black" name="color"/>
+                    <label for="black">Preto</label>
+                </fieldset>
+
+                <h1>R$3.600,00</h1>
+
+                <button class="botao-compra" onclick="comprar()">Comprar</button>
+                 <script>
+            function comprar(){
+                alert("Produto comprado com sucesso!")
+            }
+        </script>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tech Solutions</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Tech Solution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Monitor LG 24</h1>
+    </header>
+       
+    <section>
+        <div class="container">
+            <div class="notebook">
+                <img src="notebook.jpg" alt="foto" class="foto-perfil">
+            </div>
+
+            <div class="sobre-informacoes">
+                <h2>Monitor LG 24</h2>
+                <p>
+                   Oferece cores vibrantes, jogabilidade fluida, interface simples, e sincronização de ação dinâmica.
+                    Com ajuste de inclinação, estabilizador preto, mira centralizada, e design sem bordas.
+                </p>
+
+                <fieldset>
+                    <legend>Cor</legend>
+                    <input type="radio" id="black" name="color"/>
+                    <label for="black">Preto</label>
+                    <input type="radio" id="white" name="color"/>
+                    <label for="white">Branco</label>
+                    <input type="radio" id="gray" name="color"/>
+                    <label for="gray">Cinza</label>
+                </fieldset>
+
+                <h1>R$725,35</h1>
+
+                <button class="botao-compra" onclick="comprar()">Comprar</button>
+                 <script>
+            function comprar(){
+                alert("Produto comprado com sucesso!")
+            }
+        </script>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tech Solutions</p>
+    </footer>
+</body>
+</html>

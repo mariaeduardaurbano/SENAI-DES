@@ -1,0 +1,311 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1755867556471
+  modified: 1755867556471
+  description: ""
+collection:
+  - name: Biblioteca
+    meta:
+      id: fld_d8ea9ad13e264510b18bb95142eabf59
+      created: 1756466508237
+      modified: 1757077409803
+      sortKey: -1756466508237
+      description: ""
+    children:
+      - name: Usuarios
+        meta:
+          id: fld_6769cfac4fe54fd987f365bd2e8fd62d
+          created: 1756466564240
+          modified: 1757077413964
+          sortKey: -1756466564240
+          description: ""
+  - name: Livros
+    meta:
+      id: fld_beb88232fa124717be6db04978dfd9a6
+      created: 1756476887362
+      modified: 1756476887362
+      sortKey: -1756476887362
+      description: ""
+  - name: Musicas
+    meta:
+      id: fld_34625086cd35409b9812f6a97b46feca
+      created: 1757078276176
+      modified: 1757078276176
+      sortKey: -1757078276176
+      description: ""
+  - name: Usuarios
+    meta:
+      id: fld_0d4df9bf14944c4c8a3d659cc3dac3bd
+      created: 1757079218438
+      modified: 1757079218438
+      sortKey: -1757079218438
+      description: ""
+  - name: Playlists
+    meta:
+      id: fld_ca4ac04030ac4e77a44a7b05cc33f0fa
+      created: 1757079633782
+      modified: 1757079633782
+      sortKey: -1757079633782
+      description: ""
+  - name: Playlist_musicas
+    meta:
+      id: fld_919f9aa7ed824a2e93cc5def12a32134
+      created: 1757081524564
+      modified: 1757081524564
+      sortKey: -1757081524564
+      description: ""
+  - name: Quartos
+    meta:
+      id: fld_2133eed0c8e14f9ab9f739dfc2643dba
+      created: 1757703421147
+      modified: 1757703421147
+      sortKey: -1757703421147
+      description: ""
+  - name: provaPWBE
+    meta:
+      id: fld_f26b97efb0cf4cfca933f4c4d929979a
+      created: 1758288289255
+      modified: 1758288289255
+      sortKey: -1758288289255
+      description: ""
+    children:
+      - name: Clientes
+        meta:
+          id: fld_189cac7e647b453d84c1421c2e649ef0
+          created: 1758288423675
+          modified: 1758288430492
+          sortKey: -1758288430456
+          description: ""
+        children:
+          - url: http://localhost:3000/cliente/345.890.567-87
+            name: Buscar
+            meta:
+              id: req_3f99bee0760244bcb780ac954c24ed47
+              created: 1758290112494
+              modified: 1758290112494
+              isPrivate: false
+              description: ""
+              sortKey: -1758288516138.5
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Produtos
+        meta:
+          id: fld_590742b77a494f238d0e52c5b3f6e33d
+          created: 1758289139913
+          modified: 1758289142801
+          sortKey: -1758288430556
+          description: ""
+        children:
+          - url: http://localhost:3000/produto/123
+            name: Apagar
+            meta:
+              id: req_0038e84418454d2e9d06814a409d8512
+              created: 1757703536176
+              modified: 1758289620572
+              isPrivate: false
+              description: ""
+              sortKey: -1758289166419
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/produto/456
+            name: Buscar
+            meta:
+              id: req_43c42f0729604ef99ba87332fc235dee
+              created: 1758289163114
+              modified: 1758289793889
+              isPrivate: false
+              description: ""
+              sortKey: -1758289166519
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/produto
+            name: Alterar
+            meta:
+              id: req_b0af4738218c4a44bf374d05f9437b49
+              created: 1758289718055
+              modified: 1758289785138
+              isPrivate: false
+              description: ""
+              sortKey: -1758289166319
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"nome":"Boné Esportivo Azul",
+                        "descrição":"Boné com regulagem disponível na cor azul",
+                        "preço": 49.90,
+                        "quantidade em estoque": 18,
+                        "id": "456"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Compras
+        meta:
+          id: fld_2a81d605598c4e99a071492a846b9a12
+          created: 1758289838511
+          modified: 1758289840782
+          sortKey: -1758288430656
+          description: ""
+        children:
+          - url: http://localhost:3000/compra/456
+            name: Buscar
+            meta:
+              id: req_e5dfd26cc94e4ce8a6b4140bf80ac612
+              created: 1757703455391
+              modified: 1758290334089
+              isPrivate: false
+              description: ""
+              sortKey: -1758290126461
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/compra
+            name: Cadastrar
+            meta:
+              id: req_624e6fb5a43c444190c93badbd2b4f97
+              created: 1757703463417
+              modified: 1758291422199
+              isPrivate: false
+              description: ""
+              sortKey: -1758290126361
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                        "Cliente":"Gabrielly Souza",
+                        "Produto":"Camiseta de algodão básica.",
+                        "quantidade": 0,
+                        "data da compra": "2025-09-10",
+                        "id": "789",
+                        "status": "pendente"
+                    }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/compra/123
+            name: Atualizar
+            meta:
+              id: req_37994deae45742889fd9aa1e35b8fd25
+              created: 1757703554405
+              modified: 1758290544180
+              isPrivate: false
+              description: ""
+              sortKey: -1758290126261
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"tempo para entregar": "3 dias"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/compra
+            name: Listar
+            meta:
+              id: req_489472b55aa44f9ab3c620822063bf0d
+              created: 1758290163080
+              modified: 1758290501653
+              isPrivate: false
+              description: ""
+              sortKey: -1758290126161
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466116391
+    modified: 1756466116391
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466116219
+    modified: 1756466116219
+    isPrivate: false

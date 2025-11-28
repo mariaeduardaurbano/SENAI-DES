@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f3e2ff;
+  color: #a66ccc;
+  padding-top: 90px;
+}
+
+nav {
+  width: 100%;
+  background: #a66ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  z-index: 999;
+  box-shadow: 0 2px 10px #00000040;
+}
+
+nav a {
+  color: rgb(237, 201, 247);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #613b6c;
+}
+
+section {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  color: #8658a4;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+input, select {
+  padding: 14px;
+  border: 2px solid #a66ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+button {
+  background: #a66ccc;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #6d4488;
+}
+
+.table-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px #00000025;
+}
+
+
+.table-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #7c4f9a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+th {
+  padding: 14px;
+  background: #a66ccc;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.linhaA {
+  background: #dbc2f2;
+}
+
+.linhaB {
+  background: #e9dcf8;
+}
+
+tbody tr:hover {
+  background: #bb93e8;
+  transition: 0.2s;
+}
+
+.cachorro {
+  display: block;
+  margin: 40px auto;
+  max-width: 450px;  
+  width: 100%;        
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

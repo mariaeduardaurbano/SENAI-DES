@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservas</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Salas</a>
+        <a href="alunos.html">Alunos</a>
+        <a href="reservas.html">Reservas</a>
+    </nav>
+
+    <section>
+        <h1>Cadastro de Reservas</h1>
+
+        <form id="formReserva">
+            <input type="text" name="id_sala" placeholder="ID da sala" required>
+            <input type="text" name="id_aluno" placeholder="ID do aluno" required>
+            <input type="date" name="data_reserva" required>
+            <input type="text" name="horario" placeholder="Horário">
+            <button type="submit">Cadastrar Reserva</button>
+        </form>
+    </section>
+
+    <section>
+        <h1>Reservas Realizadas</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Aluno</th>
+                    <th>Sala</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="linhaA">
+                    <td>1</td>
+                    <td>2025-11-28</td>
+                    <td>13:30</td>
+                    <td>Gabrielly S.</td>
+                    <td>Laboratório de Mídia e Tecnologia</td>
+                </tr>
+
+                <tr class="linhaB">
+                    <td>2</td>
+                    <td>2025-11-23</td>
+                    <td>09:45</td>
+                    <td>Mirella B.</td>
+                    <td>Laboratório de Física</td>
+                </tr>
+
+                <tr class="linhaA">
+                    <td>3</td>
+                    <td>2025-11-22</td>
+                    <td>10:00</td>
+                    <td>Isabelle B.</td>
+                    <td>Espaço MAKER</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+      <img src="cachorro.png" class="cachorro">
+
+</body>
+
+</html>

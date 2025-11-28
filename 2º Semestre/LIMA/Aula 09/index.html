@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header>
+        <img width="50" id="logo" src="logo.png" alt="">
+        <ul>
+            <li><input type="text" id="busca"></li>
+            <li>Home</li>
+            <li>Sobre nós</li>
+            <li>Contato</li>
+        </ul>
+        <i id="btn-menu" class="fa-solid fa-bars fa-2xl"></i>
+    </header>
+    <div class="container">
+        <nav id="menu-lateral">
+            <ul>
+                <li>Categorias</li>
+                <li>Promoções</li>
+                <li>Lançamentos</li>
+                <li>Carrinho</li>
+            </ul>
+        </nav>
+        <form action="">
+            <label for="categoria">Categoria</label>
+            <select name="categoria" id="categoria">
+                <option value="0" selected> Selecione uma categoria</option>
+                <option value="1">Cor Marrom</option>
+                <option value="2">Cor branca</option>
+                <option value="3">Cor Caramelo</option>
+            </select>
+            <label for="valor">Valor máximo <span id="spVal">R$ 0</span></label>
+            <input type="range" name="valor" id="valor" value="0" min="0" step="1">
+            <button id="filtrar">Filtrar</button>
+        </form>
+        <main>
+            <div class="box">
+                <img src="dog.jpg" alt="">
+                <div class="info">
+                    <p class="nome">Cachorro Cowboy - Caramelo</p>
+                    <p class="valor">R$ 1000</p>
+                    <p class="categoria" hidden>0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,68 @@
+SELECT * FROM pedidos WHERE status = "entregue";
+
+SELECT * FROM pedidos WHERE status <> "entregue";
+
+SELECT * FROM pedidos WHERE quantidade >= 10;
+
+SELECT * FROM pedidos WHERE quantidade >= 10 AND status = "entregue";
+
+SELECT * FROM pedidos WHERE produto = "leite" OR produto = "café";
+
+SELECT * FROM pedidos ORDER BY cliente_nome ASC;
+
+SELECT * FROM pedidos ORDER BY cliente_nome ASC;
+
+SELECT * FROM pedidos ORDER BY quantidade ASC;
+
+SELECT * FROM pedidos 
+WHERE status = "entregue"
+ORDER BY cliente_nome ASC;
+
+SELECT * FROM pedidos
+ORDER BY quantidade DESC;
+
+SELECT * FROM pedidos
+ORDER BY quantidade DESC
+LIMIT 5;
+
+SELECT * FROM pedidos
+ORDER BY id ASC
+LIMIT 5;
+
+SELECT * FROM pedidos
+ORDER BY id ASC
+LIMIT 5 OFFSET 0;
+
+SELECT * FROM pedidos
+ORDER BY id ASC
+LIMIT 5 OFFSET 5;
+
+SELECT cliente_nome AS "Nome do Cliente" FROM pedidos 
+ORDER BY id ASC
+LIMIT 5 OFFSET 10;
+
+SELECT 
+	cliente_nome AS "Nome do Cliente",
+	data_pedido AS "Data do Pedido",
+	status AS "Status"
+FROM pedidos 
+ORDER BY id ASC
+LIMIT 5 OFFSET 10;
+
+SELECT * FROM pedidos
+WHERE data_pedido 
+BETWEEN "2025-08-01" AND "2025-08-31";
+
+SELECT * FROM pedidos 
+WHERE cliente_nome LIKE "Bruna%";
+
+SELECT * FROM pedidos 
+WHERE cliente_nome LIKE "%Rocha";
+
+SELECT * FROM pedidos 
+WHERE cliente_nome LIKE "%Carolina%";
+
+SELECT * FROM pedidos 
+WHERE produto IN ("arroz", "café", "farinha");
+
+ 
