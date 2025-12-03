@@ -1,0 +1,539 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1755867556471
+  modified: 1755867556471
+  description: ""
+collection:
+  - name: Biblioteca
+    meta:
+      id: fld_d8ea9ad13e264510b18bb95142eabf59
+      created: 1756466508237
+      modified: 1757077409803
+      sortKey: -1756466508237
+      description: ""
+    children:
+      - name: Usuarios
+        meta:
+          id: fld_6769cfac4fe54fd987f365bd2e8fd62d
+          created: 1756466564240
+          modified: 1757077413964
+          sortKey: -1756466564240
+          description: ""
+  - name: Livros
+    meta:
+      id: fld_beb88232fa124717be6db04978dfd9a6
+      created: 1756476887362
+      modified: 1756476887362
+      sortKey: -1756476887362
+      description: ""
+  - name: Musicas
+    meta:
+      id: fld_34625086cd35409b9812f6a97b46feca
+      created: 1757078276176
+      modified: 1757078276176
+      sortKey: -1757078276176
+      description: ""
+  - name: Usuarios
+    meta:
+      id: fld_0d4df9bf14944c4c8a3d659cc3dac3bd
+      created: 1757079218438
+      modified: 1757079218438
+      sortKey: -1757079218438
+      description: ""
+  - name: Playlists
+    meta:
+      id: fld_ca4ac04030ac4e77a44a7b05cc33f0fa
+      created: 1757079633782
+      modified: 1757079633782
+      sortKey: -1757079633782
+      description: ""
+  - name: Playlist_musicas
+    meta:
+      id: fld_919f9aa7ed824a2e93cc5def12a32134
+      created: 1757081524564
+      modified: 1757081524564
+      sortKey: -1757081524564
+      description: ""
+  - name: Quartos
+    meta:
+      id: fld_2133eed0c8e14f9ab9f739dfc2643dba
+      created: 1757703421147
+      modified: 1757703421147
+      sortKey: -1757703421147
+      description: ""
+  - name: provaPWBE
+    meta:
+      id: fld_f26b97efb0cf4cfca933f4c4d929979a
+      created: 1758288289255
+      modified: 1758288289255
+      sortKey: -1758288289255
+      description: ""
+    children:
+      - name: Clientes
+        meta:
+          id: fld_189cac7e647b453d84c1421c2e649ef0
+          created: 1758288423675
+          modified: 1758288430492
+          sortKey: -1758288430456
+          description: ""
+      - name: Produtos
+        meta:
+          id: fld_590742b77a494f238d0e52c5b3f6e33d
+          created: 1758289139913
+          modified: 1758289142801
+          sortKey: -1758288430556
+          description: ""
+      - name: Compras
+        meta:
+          id: fld_2a81d605598c4e99a071492a846b9a12
+          created: 1758289838511
+          modified: 1758289840782
+          sortKey: -1758288430656
+          description: ""
+  - name: Locadora
+    meta:
+      id: fld_7d1d4eacdc364c3f906a5150da11d1bd
+      created: 1759231112723
+      modified: 1759231112723
+      sortKey: -1759231112723
+      description: ""
+  - name: Cinema
+    meta:
+      id: fld_535d13eac1d247fcb9616ae9930240fb
+      created: 1759512677445
+      modified: 1759512677445
+      sortKey: -1759512677445
+      description: ""
+  - name: base_teste
+    meta:
+      id: fld_2d01121f12824b458fbf360dc9e14f4a
+      created: 1760703410499
+      modified: 1760703410499
+      sortKey: -1760703410499
+      description: ""
+  - name: Sala_de_estudos
+    meta:
+      id: fld_d812c1ee461f4c94bb749483b18d4642
+      created: 1764334927033
+      modified: 1764334927033
+      sortKey: -1764334927034
+      description: ""
+    children:
+      - name: Alunos
+        meta:
+          id: fld_9beac01fb0cb4895b7fe2fdb1ac99d65
+          created: 1764334955417
+          modified: 1764338836414
+          sortKey: -1764334957158
+          description: ""
+      - name: Salas
+        meta:
+          id: fld_bed6632394504c3fa3079056737ab72f
+          created: 1764338810338
+          modified: 1764338825831
+          sortKey: -1764334957258
+          description: ""
+      - name: Reservas
+        meta:
+          id: fld_01500c91d5f34bcd81485e5c7ac122c7
+          created: 1764346582290
+          modified: 1764346584999
+          sortKey: -1764334957358
+          description: ""
+  - name: Clinica Vida+
+    meta:
+      id: fld_2f05d25dc7bc43f7bc6b470bd367aa4a
+      created: 1764681583598
+      modified: 1764681583598
+      sortKey: -1764681583598
+      description: ""
+  - name: Sistema de Adoção
+    meta:
+      id: fld_246fd6108bc14a28a86a61796d5b63e0
+      created: 1764700685670
+      modified: 1764700685670
+      sortKey: -1764700685670
+      description: ""
+    children:
+      - name: Adotante
+        meta:
+          id: fld_3f228911911941d3a6cc10a2bf601143
+          created: 1764700697302
+          modified: 1764700699333
+          sortKey: -1764700699281
+          description: ""
+        children:
+          - url: http://localhost:3000/adotante
+            name: Listar
+            meta:
+              id: req_0ca086d6582349248d72fcc58fa38bee
+              created: 1764700770682
+              modified: 1764700791068
+              isPrivate: false
+              description: ""
+              sortKey: -1764700773061
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/cadastrar/adotante
+            name: Cadastrar
+            meta:
+              id: req_3646b41144a6414288a28bbb9e059169
+              created: 1764701503746
+              modified: 1764705537851
+              isPrivate: false
+              description: ""
+              sortKey: -1764700772961
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                		"nome": "Teste2 Souza",
+                		"telefone": "(19)99999-9999",
+                		"email": "gabys@email.com"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/adotanteexcluir/6
+            name: Excluir
+            meta:
+              id: req_d12478b14e9a483ab1642c9e06a645ce
+              created: 1764702302354
+              modified: 1764705655991
+              isPrivate: false
+              description: ""
+              sortKey: -1764700772861
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/atualizar/adotante
+            name: Atualizar
+            meta:
+              id: req_867be5f362fe4f09bc6bb5387513c2b1
+              created: 1764702373306
+              modified: 1764705737300
+              isPrivate: false
+              description: ""
+              sortKey: -1764700772761
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                		"id_adotante": 1,
+                		"nome": "Robson Souza",
+                		"telefone": "(19)99999-9999",
+                		"email": "gabys@email.com"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Animal
+        meta:
+          id: fld_86c21b8f853744b694a696b3736e5122
+          created: 1764705833771
+          modified: 1764705836322
+          sortKey: -1764700699381
+          description: ""
+        children:
+          - url: http://localhost:3000/animal
+            name: Listar
+            meta:
+              id: req_1b04db804be94f3a83e1ca2b4cdaa4e8
+              created: 1764705838728
+              modified: 1764705855346
+              isPrivate: false
+              description: ""
+              sortKey: -1764705845630
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/cadastrar/animal
+            name: Cadastrar
+            meta:
+              id: req_0beb1c88a280416eaced9ae689f9b1d6
+              created: 1764705860827
+              modified: 1764705994250
+              isPrivate: false
+              description: ""
+              sortKey: -1764705845530
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                	{
+                		"nome": "Ruffos",
+                		"especie": "Cachorro",
+                		"raca": "Poddle",
+                		"idade": 6,
+                		"status": "disponível"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/excluir/animal/4
+            name: Excluir
+            meta:
+              id: req_179af72d49524b9b94e217b430f18510
+              created: 1764706079136
+              modified: 1764782099237
+              isPrivate: false
+              description: ""
+              sortKey: -1764705845430
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/atualizar/animal
+            name: Atualizar
+            meta:
+              id: req_f4dd9d8fb8fe49de801a1cb531380173
+              created: 1764782158350
+              modified: 1764782305522
+              isPrivate: false
+              description: ""
+              sortKey: -1764705845330
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                		"id_animal": 3,
+                		"nome": "Pipoca",
+                		"especie": "cachorro",
+                		"raca": "shitzu",
+                		"idade": 1,
+                		"status": "Adotada"
+                	}
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Adocao
+        meta:
+          id: fld_183c80961caa4af2910ae70e776eba1f
+          created: 1764784268840
+          modified: 1764784271274
+          sortKey: -1764700699481
+          description: ""
+        children:
+          - url: http://localhost:3000/adocao
+            name: Listar
+            meta:
+              id: req_2c15cf3074064e7886d62879b963d6fb
+              created: 1764784278155
+              modified: 1764786694941
+              isPrivate: false
+              description: ""
+              sortKey: -1764784283755
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/cadastrar/adocao
+            name: Cadastrar
+            meta:
+              id: req_ab36d773178a4eaa9c9dfd4b2ae6324b
+              created: 1764784398387
+              modified: 1764784565962
+              isPrivate: false
+              description: ""
+              sortKey: -1764784283655
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"id_adotante": 5,
+                		"id_animal": 5,
+                		"data_adocao": "2025-11-09"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/excluir/adocao/4
+            name: Excluir
+            meta:
+              id: req_9dc6d97ee9f84d829db9d5eb5853cac5
+              created: 1764784460658
+              modified: 1764784491108
+              isPrivate: false
+              description: ""
+              sortKey: -1764784283555
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/atualizar/adocao
+            name: Atualizar
+            meta:
+              id: req_b6e913e7c5f64dba817ff5b1892537ef
+              created: 1764786464855
+              modified: 1764786834273
+              isPrivate: false
+              description: ""
+              sortKey: -1764784283455
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                "id_adotante": 2,
+                	"id_animal": 2, 
+                	"data_adocao": '2025-11-17'
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466116391
+    modified: 1756466116391
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466116219
+    modified: 1756466116219
+    isPrivate: false

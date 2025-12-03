@@ -1,15 +1,12 @@
 const express = require('express')
 
-const animalController = require("../controllers/adotante");
-const validate = require("../middlewares/auth");
+const animalController = require("../controllers/animal.controller");
 
-// const {validaGerente, validaSupervisor} = require("../middlewares/validaCargo");
+const router = express.Router();
 
-const adotanteRoutes = express.Router();
+router.get('/animal', animalController.listarAnimal);
+router.post('/cadastrar/animal', animalController.cadastrarAnimal);
+router.delete('/excluir/animal/:id_animal', animalController.excluirAnimal);
+router.put('/atualizar/animal',  animalController.atualizarAnimal);
 
-adotanteRoutes.get('/adocao', validaGerente, animalController.listarAdocao);
-// adotanteRoutes.post('/cadastrar/animal', validate, validaGerente, animalController.cadastrarpost);
-// adotanteRoutes.delete('/excluir/animal/:id', validate, validaSupervisor, animalController.excluiradocao);
-// adotanteRoutes.put('/atualizar/animal', validate, validaSupervisor, animalController.atualizaradocao);
-
-module.exports = adotanteRoutes;
+module.exports = router;

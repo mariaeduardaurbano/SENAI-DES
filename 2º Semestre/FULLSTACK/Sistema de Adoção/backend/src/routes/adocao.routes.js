@@ -1,15 +1,12 @@
 const express = require('express')
 
-const adocaoController = require("../controllers/adocao");
-const validate = require("../middlewares/auth");
+const adocaoController = require("../controllers/adocao.controller");
 
-// const {validaGerente, validaSupervisor} = require("../middlewares/validaCargo");
+const router = express.Router();
 
-const adocaoRoutes = express.Router();
+router.get('/adocao', adocaoController.listarAdocao);
+router.post('/cadastrar/adocao', adocaoController.cadastrarAdocao);
+router.delete('/excluir/adocao/:id_adocao', adocaoController.excluirAdocao);
+router.put('/atualizar/adocao', adocaoController.atualizarAdocao);
 
-adocaoRoutes.get('/listar', validate, validaGerente, adocaoController.listarAdocao);
-adocaoRoutes.post('/cadastrar/adocao', validate, validaGerente, adocaoController.cadastraradocao);
-adocaoRoutes.delete('/excluir/adocao/:id', validate, validaSupervisor, adocaoController.excluiradocao);
-adocaoRoutes.put('/atualizar/adocao', validate, validaSupervisor, adocaoController.atualizaradocao);
-
-module.exports = adocaoRoutes;
+module.exports = router;
