@@ -1,2 +1,2 @@
-# SENAI-DES# SENAI2025
-# SENAI2025
+# SENAI-DES
+Atividades feitas ao longo de 2025
